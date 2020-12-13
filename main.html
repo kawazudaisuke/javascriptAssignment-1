@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="main.css">
+        <title>ストップウォッチ</title>
+    </head>
+   
+    <body>
+        <h3>ストップウォッチ</h3>
+        <div class="stopWatch">
+            <p id="minute">00</p>
+            <p id="sec">00</p>
+            <p id="milSec">0</p>
+        </div>
+        <div class="buttonContainer">
+            <button id="start" type=button onclick=startCountUp()>スタート</button>
+            <button id="stop" type=button onclick=stopCountUp()>ストップ</button>
+            <button id="reset" type=button onclick=resetCountUp()>リセット</button>
+        </div>
+        
+        <script src="main.js"></script>
+</html>
